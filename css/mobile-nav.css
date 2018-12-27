@@ -1,20 +1,39 @@
 @media screen and (max-width: 574px) {
-  nav.mobile-nav a{
+  nav > a {
     display: none;
   }
 
-  nav.mobile-nav a.nav-logo {
-    display: block;
+  nav.scroll-nav > a {
+    display: none;
+  }
+
+  a.nav-logo {
+    display: block!important;
     float: left;
   }
 
   #mobile_icon {
     display: block;
-    float: right;
     color: #000;
     text-align: center;
     height: 100%;
     width: auto;
     font-size: 30px;
+  }
+
+  nav.scroll-nav #mobile_icon {
+    color: #fff;
+  }
+
+ nav.mobile-nav div.mobile-links {
+    display: flex;
+    float: left;
+    position: relative;
+    height: auto;
+    flex-direction: column;
+  }
+
+  nav.mobile-nav div a {
+    width: 100%;
   }
 }

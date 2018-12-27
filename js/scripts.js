@@ -1,9 +1,9 @@
-function scrollNav() {
+function scrollNav() { //Remember to change so that it differentiates between mobile and desktop.
   var x = document.getElementById("main_nav")
   if (window.pageYOffset > 0) {
-    x.className = "main-nav d-flex scroll-nav"
+    x.className = "main-nav d-flex mobile-nav scroll-nav"
   } else {
-    x.className = "main-nav d-flex"
+    x.className = "main-nav d-flex mobile-nav"
   }
 }
 

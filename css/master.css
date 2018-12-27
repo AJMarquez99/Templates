@@ -34,7 +34,7 @@ div > h2 {
   height: 100%;
 }
 
-.mobile-nav {
+div.mobile-links {
   display: none;
 }
 
