@@ -34,6 +34,10 @@ div > h2 {
   height: 100%;
 }
 
+.mobile-nav {
+  display: none;
+}
+
 nav.main-nav {
   position: fixed;
   top: 0;
