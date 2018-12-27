@@ -38,6 +38,10 @@ div.mobile-links {
   display: none;
 }
 
+a.mobile-nav {
+  display: none;
+}
+
 nav.main-nav {
   position: fixed;
   top: 0;
